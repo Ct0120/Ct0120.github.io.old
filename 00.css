@@ -5,11 +5,28 @@
     box-sizing: border-box;
 }
 
-img {
-    height: 600px;
-    width: 600px;
-}
+
 
 .img-start {
+    height: 600px;
+    width: 600px;
     border: 3px solid darkslategray;
+}
+.img-end{
+    height: 120px;
+    width: 120px;
+    border: 3px solid darkslategray;
+}
+#img-master{
+    border: 3px dashed yellowgreen;
+}
+.relative{
+    background: cadetblue;
+    width: 500px;
+    height: 500px;
+}
+.absolute{
+    background: azure;
+    width: 100px;
+    height: 100px;
 }
